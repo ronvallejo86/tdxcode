@@ -4,4 +4,27 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>csosa footer</title>
+    <link rel="footercss" type="text/css" href="https://github.com/ronvallejo86/tdxcode.git" />
+<style type="text/css">
+</style>
+</head>
+<body>
+
+    <footer class="footer">
+        <div class="container">
+            <div id="ftr-wrap">
+                <div class="ftr-links">
+                    <ul>
+                        <li><a href="http://www.byui.edu/copyright/policy/terms-of-use/">Copyright ©2023</a></li>     
+                        <li><a href="http://www.byui.edu/legal">Legal Notices</a></li>     
+                    </ul>
+                </div>
+                <div class="name">
+                    <p>Brigham Young University-Idaho</p>
+                </div>    
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
