@@ -12,7 +12,7 @@ body {
     position: absolute;
     bottom:0;
     width:100%;
-    background-color: #222222;
+    background-color: black;
 }
 
 .footer p {
@@ -35,21 +35,27 @@ body {
 #ftr-wrap > div {
     display:table-cell;
     vertical-align:middle;
-    outline:1px dashed red;  /* TEST Outline.  TO BE DELETED. */
+    
 }
 #ftr-wrap > div:nth-child(1) {text-align:left;}
 #ftr-wrap > div:nth-child(2) {text-align:center;}
 #ftr-wrap > div:nth-child(3) {text-align:right;}
 
 .ftr-links ul {
-    padding: 0;
+    margin: 0px;
 }
 .ftr-links ul li {
     display: inline-block;
+    padding-left: 15px;
     padding-right: 15px;
     font-size:.75em;
 }
 .ftr-links ul li a {
     color: #fff;
-    margin: 0;
+    margin: 4px;
+}
+
+.name {
+    display: inline-block;
+    font-size: 21px;        
 }
